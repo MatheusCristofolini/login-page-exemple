@@ -1,0 +1,54 @@
+.main {
+  display: flex;
+  width: 100dvw;
+  height: 100dvh;
+  background-color: aquamarine;
+}
+
+.sidebar {
+  background-color: white;
+  min-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.sidebar-content {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.logo {
+  background-color: burlywood;
+  width: 300px;
+  height: 100px;
+}
+
+.form {
+  background-color: lightcoral;
+  width: 400px;
+  height: 500px;
+}
+
+.slide-wrapper {
+  background-color: lightblue;
+  width: 100%;
+  min-width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    min-width: 400px;
+  }
+}

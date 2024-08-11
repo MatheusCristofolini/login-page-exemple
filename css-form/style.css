@@ -1,0 +1,87 @@
+.main {
+  display: flex;
+  width: 100dvw;
+  height: 100dvh;
+  background-color: aquamarine;
+}
+
+.sidebar {
+  background-color: white;
+  min-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.sidebar-content {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.logo {
+  background-color: burlywood;
+  width: 300px;
+  height: 100px;
+}
+
+.form-wrapper {
+  background-color: lightcoral;
+  width: 400px;
+  height: 500px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-button {
+  background-color: royalblue;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+  transition: margin-top 0.3s;
+}
+
+.form-button:hover {
+  background-color: darkblue;
+  margin-top: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.slide-wrapper {
+  background-color: lightblue;
+  width: 100%;
+  min-width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    min-width: 400px;
+  }
+}
